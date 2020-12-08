@@ -50,3 +50,7 @@ if (/.webm|.mp4/.test(bg)) { // set video src
 if (/.jpg|.png|.gif/.test(bg)) {
   bgRef.style.backgroundImage = `url(${bg})`;
 }
+
+if (bg === 'none') {
+  bgRef.style.backgroundImage = `url()`;
+}
