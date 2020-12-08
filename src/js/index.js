@@ -32,7 +32,9 @@ const countdown = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(countdown);
-    document.getElementById('demo').innerHTML = 'LAUNCHED';
+    const countDownDom = document.querySelector('.countdown');
+    countDownDom.innerHTML = 'OUT NOW!';
+    countDownDom.classList.add('glitch')
   }
 }, 1000);
 
