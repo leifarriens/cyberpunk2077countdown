@@ -2,6 +2,8 @@
 
 Public URL: https://leifarriens.github.io/cyberpunk2077countdown/
 
+Wallpaper Engine Steam Workshop Version: https://steamcommunity.com/sharedfiles/filedetails/?id=2313452188
+
 ## Change Time
 Change the time by passing a valid [JS Date Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date) to the `time` query parameter:
 
